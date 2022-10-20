@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+nav {
+    background-color: rgba(14, 14, 14, 0.836);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 3px 5px rgba(41, 41, 41, 0.315);
+}
+
+.itens {
+    display: flex;
+    justify-content: space-around;
+    min-width: 80%;
+    color: white;
+    align-items: center;
+}
+
+.itens h1 {
+    font-size: 1.1em;
+    font-family: 'Dela Gothic One', cursive;
+    transition: 0.5s;
+}
+
+.itens h1:hover {
+    color: #E51AD9;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+ul {
+    display: flex;
+    min-width: 50%;
+    justify-content: space-around;
+    
+}
+
+ul li {
+    list-style: none;
+    font-size: .9em;
+    padding: 3px;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    color: #1AD9E5;
+    cursor: pointer;
+    border-bottom: 1px solid #1AD9E5;
+}
